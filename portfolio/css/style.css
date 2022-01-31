@@ -115,10 +115,11 @@ li {
   font-size: 13px;
   font-weight: bold;
   display: inline-block;
-  padding: 5px 0;
+  padding: 5px 15px;
   transition: .3s;
   letter-spacing: .05em;
   color: #333;
+  background-color: #eee;
 }
 .header-nav-item a:after {
   position: absolute;
@@ -130,7 +131,7 @@ li {
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #333;
+  background-color: rgb(192, 19, 19);
 }
 
 .header-nav-item a:hover:after {
@@ -211,13 +212,13 @@ li {
   display: inline-block;
   max-width: 180px;
   text-align: center;
-  background-color: #293b6a;
+  background-color: #0e0846;
   font-size: 16px;
-  color: #FFF;
+  color: rgb(168, 112, 39);
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
-  border: 1px dashed #FFF;
+  border: 3px dashed rgb(255, 255, 255);
   box-shadow: 0px 0px 0px 2px #293b6a;/* box-shadowで外枠を */
 }
 
@@ -230,13 +231,13 @@ li {
   max-width: 180px;
   height:50px;
   text-align: center;
-  background-color: #9ec34b;
+  background-color: #7d15df88;
   font-size: 16px;
   line-height: 52px;
-  color: #FFF;
+  color: rgb(69, 216, 39);
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #9ec34b;
+  border: 2px solid #33034e;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -255,7 +256,7 @@ li {
   z-index: -1;
 }
 .btn-open:hover{
-  color: #9ec34b;
+  color: rgb(223, 22, 82);
 }
 .btn-open:hover:after{
   height: 240%;
@@ -271,18 +272,18 @@ li {
   max-width: 180px;
   text-align: center;
   font-size: 16px;
-  color: #9ec34b;
+  color: rgb(135, 95, 143);
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   position: relative;
-  border: 2px solid #9ec34b;
+  border: 2px solid #1bc7a2;
   transition: .4s;
 }
 
 .btn-box:hover {
   border: 2px solid transparent;
-  color: #000;
+  color: rgb(211, 43, 43);
 }
 
 .btn-box:before, .btn-box:after {
@@ -295,19 +296,19 @@ li {
   left: 0;
   box-sizing: border-box;
   transform: scale(0);
-  transition: .2s;
+  transition: .7s;
 }
 
 .btn-box:before {
   border-bottom: 2px solid #000;
   border-left: 2px solid #000;
-  transform-origin: 100% 0%;
+  transform-origin: 0% 100%;
 }
 
 .btn-box:after {
   border-top: 2px solid #000;
   border-right: 2px solid #000;
-  transform-origin: 0% 100%;
+  transform-origin: 100% 0%;
 }
 
 .btn-box:hover:after,
@@ -325,9 +326,9 @@ li {
   font-weight: bold;
   padding: 12px 24px;
   border-radius: 4px;
-  background-image: linear-gradient(-90deg, #89eb75, #f1e753);
+  background-image: linear-gradient(-90deg, #75c6eb, #f17353);
   transition: .5s;
-  background-size: 200%;
+  background-size: 300%;
 }
 
 .btn-gradation:hover {
